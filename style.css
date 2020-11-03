@@ -1,0 +1,48 @@
+body {
+	background: #ccc;
+	max-width: 900px;
+	margin: auto;
+	text-align: center;
+}
+
+#title, .subtitle, .post-title {
+	color: blue;
+	font-family: Verdana;
+	text-transform: capitalize;
+	text-decoration: underline;
+}
+
+.post-title{
+	font-size: 16px;
+	font-style: italic;
+	margin: 0;
+	margin-bottom: 15px;
+	font-family: Verdana, Arial;
+}
+
+.post {
+	background: #fff;
+	padding: 20px;
+	border: 3px solid #000;
+	border-radius: 30px;
+	margin-bottom: : 15px
+}
+
+.picture { 
+	border: 3px solid #000;
+	border-top: 3px dotted #000;
+	border-bottom: 3px dashed #000;
+	border-radius: 10px;
+	width: 45%;
+}
+
+.post-content {
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+ul {
+	list-style-type: "\1F44D";
+	text-align: center;
+    list-style-position: inside;
+}

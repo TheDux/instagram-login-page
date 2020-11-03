@@ -17,21 +17,6 @@ body {
     justify-content: center;
 }
 
-.wrapper {
-    width: 60%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-top: 2rem;
-}
-
-#wrapper > .container {
-    display: flex;
-    padding: 0 8rem;
-}
-
 .instagram-wrapper {
     display: flex;
     align-items: center;
@@ -58,6 +43,7 @@ body {
     flex-direction: column;
     width: 50%;
     height: 34rem;
+    padding-left: 10px;
 }
 
 .group {
@@ -146,27 +132,10 @@ body {
     .instagram-wrapper{
         width: 90%;
     }
-
-    footer .container {
-        padding: 0 2rem;
-        justify-content: center;
-    }
-
-    .footer-nav ul {
-        justify-content: center;
-    }
-
-    .footer-nav ul li {
-        margin-bottom: 1rem;
-    }
-
-    #wrapper > .container{
-        padding: 0;
-    }
 }
 
 @media (max-width: 650px) {
-    .body{
+    body{
         background-color: #ffffff;
     }
     .instagram-wrapper{
@@ -181,66 +150,5 @@ body {
     .group {
         border: 1px solid transparent;
     }
-
-    footer {
-        padding-bottom: 2rem;
-    }
-
-    #wrapper{
-        padding-top: 0;
-    }
 }
 
-.container {
-    width: 100%;
-    max-width: 93.5rem;
-    margin: 3rem auto 0;
-}
-footer {
-    padding: 5rem 0;
-}
-
-footer .container {
-    display: flex;
-    justify-content: space-between;
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 1.3rem;
-    flex-wrap: wrap;
-    margin-top: 0;
-}
-
-.footer-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-}
-
-.footer-nav ul li {
-    margin-right: 1.6rem;
-}
-
-.footer-nav ul li a {
-    color: #003569;
-    font-size: 12px;
-}
-
-.copyright-notice {
-    margin-left: 15px;
-    color: #999999;
-    font-size: 12px;
-}
-/*
-//Se n tivesse usado rem no icon:
-.group img {
-    width: 50%;
-    justify-content: center;
-}
-
-.profile-photo {
-    display: flex;
-    justify-content: center;
-    width: 60%;
-    align-items: center;
-}
-*/
